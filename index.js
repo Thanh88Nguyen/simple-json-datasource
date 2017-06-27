@@ -18,18 +18,18 @@ for (var i = timeserie.length -1; i >= 0; i--) {
   }
 }
 
-var annotation = {
-  name : "annotation name",
-  enabled: true,
-  datasource: "generic datasource",
-  showLine: true,
-}
+//var annotation = {
+// name : "annotation name",
+//  enabled: true,
+//  datasource: "generic datasource",
+//  showLine: true,
+//}
 
-var annotations = [
-  { annotation: annotation, "title": "Donlad trump is kinda funny", "time": 1450754160000, text: "teeext", tags: "taaags" },
-  { annotation: annotation, "title": "Wow he really won", "time": 1450754160000, text: "teeext", tags: "taaags" },
-  { annotation: annotation, "title": "When is the next ", "time": 1450754160000, text: "teeext", tags: "taaags" }
-];
+//var annotations = [
+//  { annotation: annotation, "title": "Donlad trump is kinda funny", "time": 1450754160000, text: "teeext", tags: "taaags" },
+//  { annotation: annotation, "title": "Wow he really won", "time": 1450754160000, text: "teeext", tags: "taaags" },
+//  { annotation: annotation, "title": "When is the next ", "time": 1450754160000, text: "teeext", tags: "taaags" }
+//];
 
 var now = Date.now();
 var decreaser = 0;
@@ -40,15 +40,15 @@ for (var i = 0;i < annotations.length; i++) {
   decreaser += 1000000
 }
 
-var table =
-  {
-    columns: [{text: 'Time', type: 'time'}, {text: 'Country', type: 'string'}, {text: 'Number', type: 'number'}],
-    values: [
-      [ 1234567, 'SE', 123 ],
-      [ 1234567, 'DE', 231 ],
-      [ 1234567, 'US', 321 ],
-    ]
-  };
+//var table =
+//  {
+//    columns: [{text: 'Time', type: 'time'}, {text: 'Country', type: 'string'}, {text: 'Number', type: 'number'}],
+//    values: [
+//      [ 1234567, 'SE', 123 ],
+//      [ 1234567, 'DE', 231 ],
+//      [ 1234567, 'US', 321 ],
+//    ]
+//  };
   
 function setCORSHeaders(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
